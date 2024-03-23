@@ -1,0 +1,48 @@
+.btn {
+    width: 100%;
+    border: 3px solid rgb(0, 0, 0);
+    background: rgba(0, 0, 255, 0.313);
+    aspect-ratio: 1 / 1;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding: .5rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+    border-radius: 30px;
+  }
+  
+  .btn.active {
+    background-color: hsla(200, 100%, 50%, 0.511);
+    color: green;
+    border: 3px solid green;
+  }
+  
+  .btn.inactive {
+    opacity: .3;
+    color: red;
+    border: 3px solid rgb(255, 0, 0);
+  }
+  
+  .btn:hover:not(:disabled),
+  .btn:focus:not(:disabled) {
+    background-color: hsla(200, 100%, 75%, 0.656);
+  }
+  @media(max-width: 421px)
+  {
+    .btn {
+      width: 70%;
+      font-size: 20px;
+      padding: .5rem;
+      border-radius: 30px;
+    }
+  }
+  @media(max-height: 873px)
+  {
+    .btn {
+      width: 70%;
+      font-size: 20px;
+      padding: .5rem;
+      border-radius: 30px;
+    }
+  }
