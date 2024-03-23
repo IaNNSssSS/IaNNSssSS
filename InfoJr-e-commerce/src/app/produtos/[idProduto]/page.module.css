@@ -1,0 +1,272 @@
+.principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.produtoBox {
+  background: salmon;
+  width: 1215px;
+  height: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgBox {
+  background: green;
+  box-sizing: border-box;
+  width: 40%;
+}
+
+.infoBox {
+  background: yellow;
+  box-sizing: border-box;
+  width: 45%;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 33px;
+  font-weight: 800;
+}
+
+.carVazio {
+  font-size: 33px;
+  font-weight: 700;
+}
+
+.letrasPeq {
+  font-size: 14px;
+}
+
+.botao {
+  width: 360px;
+  height: 60px;
+  margin-top: 3vh;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  background: #1b1b1b;
+}
+
+.areaPagina {
+  display: flex;
+  justify-content: space-between;
+  min-width: 1120px;
+}
+
+.cardProdutos {
+  width: 645px;
+  height: 170px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.atribsProduto {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.imgBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 180px;
+  height: 100%;
+}
+
+.infoCard .nomeProd {
+  width: 297px;
+  font-size: 20px;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+.precos {
+  width: 105px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.currentPrice {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.oldPrice {
+  font-size: 12px;
+  font-weight: 400;
+  color: #6b6b6b;
+  text-decoration: line-through;
+  margin-left: 2px;
+}
+
+.qtdRestante {
+  font-size: 12px;
+  font-weight: 500;
+  color: #6b6b6b;
+}
+
+.qtdTamanho {
+  display: flex;
+  font-size: 10px;
+}
+
+.botoes {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+}
+
+.botao {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+
+.prodSemelhantes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.semelhanteCard {
+  width: 1120px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+}
+
+.outrosProdutos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.outrosProdsCards {
+  width: 1120px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+}
+.card_produtos {
+  width: 360px;
+  height: 476px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card_produtos .card_img {
+  width: 100%;
+  height: 360px;
+}
+
+.card_produtos .informacoes {
+  height: 25%;
+}
+
+.card_produtos h2 {
+  font-size: 20px;
+  text-align: left;
+}
+
+.card_produtos .precos {
+  width: 185px;
+  height: 30px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card_produtos .current_price {
+  font-size: 20px;
+}
+
+.card_produtos .old_price {
+  font-size: 16px;
+  color: #808080;
+  text-decoration: line-through;
+}
+
+.card_produtos .disponivel {
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+  color: #808080;
+}
+
+@media (max-width: 1200px) {
+  .produtos {
+    width: 345px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+  }
+
+  .card_produtos {
+    width: 165px;
+    height: 226px;
+    padding-bottom: 20px;
+  }
+
+  .card_produtos .card_img {
+    width: 165px;
+    height: 165px;
+  }
+
+  .card_produtos h2 {
+    font-size: 10px;
+    text-align: left;
+  }
+
+  .card_produtos .precos {
+    width: 60%;
+    height: 30%;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .card_produtos .current_price {
+    font-size: 10px;
+  }
+
+  .card_produtos .old_price {
+    font-size: 8px;
+    color: #808080;
+    text-decoration: line-through;
+  }
+
+  .card_produtos .disponivel {
+    text-align: left;
+    font-weight: 500;
+    font-size: 8px;
+    color: #808080;
+  }
+}
+
+.btnAdicionar {
+  background: black;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 0px;
+  width: 168px;
+  height: 36px;
+  cursor: pointer;
+}

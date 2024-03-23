@@ -1,0 +1,44 @@
+/* FOOTER||||||||||||||||||||||||||||||||||||||||||||||*/
+.footer
+{
+  margin-top: 100px;
+  display: flex;
+  color: white;
+  background-color: black;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.inf_esq
+{
+  font-size: 20px;
+  padding-left: 160px;
+  padding-top: 10px;
+}
+.icons
+{
+  display: flex;
+  gap: 10px 
+}
+.dig_email
+{
+  padding: 10px;
+  background-color: black;
+  border: 1px solid var(--c2, #F9F9F9);
+}
+.ba_email
+{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.arrow
+{
+  background-color: white;
+  padding: 8px;
+}
+.inf_dir
+{
+  padding-right: 160px;
+  font-size: 16px;
+}
+/* FOOTER||||||||||||||||||||||||||||||||||||||||||||||*/

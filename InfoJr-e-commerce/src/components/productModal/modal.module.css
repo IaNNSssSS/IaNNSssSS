@@ -1,0 +1,124 @@
+.overlay
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.box1
+{
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+.box2
+{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.lad_esq
+{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+.meio
+{
+    display: flex;
+    flex-direction: column;
+}
+.maisesquerdo
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.lad_dir
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.precos
+{
+    display: flex;
+    gap: 20px;
+}
+.precin
+{
+    display: flex;
+    flex-direction: column;
+}
+.pre
+{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.btns
+{
+    margin-top: 30px;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+}
+.bt
+{
+    margin-top: 3vh;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--c2, #f9f9f9);
+    background: black;
+    box-shadow: 8px 8px 0px 0px #bdbdbd;
+}
+.box_tag_quant
+{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+
+
+.namess
+{
+    padding: 10px;
+    width: 390px;
+}
+.rs
+{
+    padding: 5px;
+    border: 1px solid var(--c10, #1B1B1B);
+    background: var(--c3, #D1D1D1);
+}
+.num
+{
+    width: 100px;
+    padding-left: 10px;
+}
+.tagdig
+{
+    border: 1px solid var(--c10, black);
+    width: 100px;
+}
