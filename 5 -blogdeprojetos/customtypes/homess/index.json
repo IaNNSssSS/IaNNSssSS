@@ -1,0 +1,125 @@
+{
+  "id": "homess",
+  "label": "Homess",
+  "format": "custom",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "UID"
+        },
+        "type": "UID"
+      },
+      "titulo": {
+        "type": "Text",
+        "config": {
+          "label": "TITULO",
+          "placeholder": ""
+        }
+      },
+      "turis": {
+        "type": "StructuredText",
+        "config": {
+          "label": "turis",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "sobre_nos": {
+        "type": "StructuredText",
+        "config": {
+          "label": "SOBRE NÓS",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "viagens": {
+        "type": "Text",
+        "config": {
+          "label": "Viagens",
+          "placeholder": ""
+        }
+      },
+      "viagem_1": {
+        "type": "Image",
+        "config": {
+          "label": "VIAGEM 1",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "descricao_viagem_1": {
+        "type": "StructuredText",
+        "config": {
+          "label": "descricao viagem 1",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "viagem_22": {
+        "type": "Text",
+        "config": {
+          "label": "viagem 22",
+          "placeholder": ""
+        }
+      },
+      "viagem_2": {
+        "type": "Image",
+        "config": {
+          "label": "VIAGEM 2",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "descricao_viagem_2": {
+        "type": "StructuredText",
+        "config": {
+          "label": "descricao viagem 2",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "viagem_33": {
+        "type": "Text",
+        "config": {
+          "label": "viagem 33",
+          "placeholder": ""
+        }
+      },
+      "viagem_3": {
+        "type": "Image",
+        "config": {
+          "label": "VIAGEM 3",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "descricao_viagem_3": {
+        "type": "StructuredText",
+        "config": {
+          "label": "descricao viagem 3",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "informacoes": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "sobre_nos",
+  "label": "Sobre_nos",
+  "format": "custom",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "UID"
+        },
+        "type": "UID"
+      },
+      "sobre_nos": {
+        "type": "Text",
+        "config": {
+          "label": "SOBRE_NOS",
+          "placeholder": ""
+        }
+      },
+      "descricao": {
+        "type": "StructuredText",
+        "config": {
+          "label": "descricao",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "descricao1": {
+        "type": "StructuredText",
+        "config": {
+          "label": "descricao1",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "descricao2": {
+        "type": "StructuredText",
+        "config": {
+          "label": "descricao2",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "descricao3": {
+        "type": "StructuredText",
+        "config": {
+          "label": "descricao3",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "descricao4": {
+        "type": "StructuredText",
+        "config": {
+          "label": "descricao4",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "descricao5": {
+        "type": "StructuredText",
+        "config": {
+          "label": "descricao5",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "descricao6": {
+        "type": "StructuredText",
+        "config": {
+          "label": "descricao6",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "imagem_turistio": {
+        "type": "Image",
+        "config": {
+          "label": "imagem turistio",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "inicio": {
+        "type": "Text",
+        "config": {
+          "label": "INÍCIO",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}
