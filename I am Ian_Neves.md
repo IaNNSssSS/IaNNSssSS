@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @IaNNSssSS, I'm 20 years old and I'm a college student, I study computer science and I'm learning to be a developer
+- Here, you will find my first projects that I made for a selection to join InfoJr, a Junior programming company at UFBA
 
 <!---
 IaNNSssSS/IaNNSssSS is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
