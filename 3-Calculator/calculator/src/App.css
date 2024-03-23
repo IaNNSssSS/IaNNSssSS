@@ -1,0 +1,96 @@
+*{font-family: 'Roboto', sans-serif;}
+.calculadora
+{
+  background-color:  rgba(0, 0, 0, 0.678);
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-right: 750px;
+  margin-left: 760px;
+  margin-top: 150px;
+}
+.tela
+{
+  font-size: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: right;
+  padding-top: 50px;
+  color: white;
+  background-color:  rgba(36, 90, 90, 0.738);
+  margin-bottom: 10px;
+  padding-right: 15px;
+}
+button
+{
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+button:hover
+{
+  cursor: pointer;
+}
+.numeros
+{
+  border-radius: 20px;
+  background-color:  rgba(36, 90, 90, 0.738); ;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+#diferentes
+{
+  font-size: 20px;
+  background-color: rgba(76, 176, 176, 0.738);
+  color: white;
+}
+#diferentesAC
+{
+  font-size: 20px;
+  background-color: rgb(44, 184, 184);
+  color: white;
+  padding-right: 70px;
+  padding-left: 50px;
+}
+#numeross
+{
+  font-size: 20px;
+  background-color: rgba(44, 133, 133, 0.278);
+  color: white;
+}
+#diferente
+{
+  font-size: 20px;
+  background-color: rgb(39, 149, 120);
+  color: white;
+}
+.operadores
+{
+  display: flex;
+  gap: 5px;
+}
+.um
+{
+  display: flex;
+  gap: 5px;
+}
+.dois
+{
+  display: flex;
+  gap: 5px;
+}
+.tres
+{
+  display: flex;
+  gap: 5px;
+}
+.quatro
+{
+  display: flex;
+  gap: 5px;
+}
